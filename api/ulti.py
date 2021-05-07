@@ -1,6 +1,5 @@
 import search_api as sa
 
-
 # Get a certain n-gram:
 def get_ngrams(input_list, n):
     ngrams = {}
@@ -34,5 +33,5 @@ def calculate_prob(ngram, term):
 
 if __name__ == "__main__":
     lyrics = sa.get_lyrics("Lady Gaga", 3)
-    l = get_anagrams(lyrics, 2)
+    l = get_ngrams(lyrics, 2)
     print(l)

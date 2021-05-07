@@ -130,3 +130,6 @@ dmypy.json
 
 # Secret Token
 api/secret_token.py
+
+# VSCODE
+.vscode
