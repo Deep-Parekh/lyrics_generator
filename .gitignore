@@ -133,3 +133,4 @@ api/secret_token.py
 
 # VSCODE
 .vscode
+secret_token.py
